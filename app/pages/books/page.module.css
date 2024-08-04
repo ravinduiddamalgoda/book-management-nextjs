@@ -1,0 +1,104 @@
+/* BookListPage.module.css */
+  
+  
+  .bookList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--color-blue);
+  }
+  
+  .bookList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+ /* BookListPage.module.css */
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--color-blue);
+}
+
+.bookList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filters {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchField {
+  width: 300px; /* Adjust width as needed */
+}
+.searchField input {
+  color: black !important;
+}
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.searchField {
+  width: 100%;
+}
+
+.tableContainer {
+  margin-top: 20px;
+}
+
+.tableHeader {
+  font-weight: bold;
+  background-color: #f5f5f5;
+}
+
+.actionButton {
+  margin-right: 8px !important; 
+  margin-left: 10px !important;
+}
+.homeButton {
+  margin: 10px !important; 
+ text-align: end;
+ 
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
