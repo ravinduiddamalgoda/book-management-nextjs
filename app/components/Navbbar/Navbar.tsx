@@ -23,8 +23,8 @@ const Navbar = () => {
       {user ? (
         <div className={styles.userSection}>
           <p className={styles.username}>Welcome, {user.username}</p>
-          <Link href="/pages/auth/login" className={styles.link}>Login</Link>
-        <Link href="/pages/auth/register" className={styles.link}>Register</Link>
+          {/* <Link href="/pages/auth/login" className={styles.link}>Login</Link>
+        <Link href="/pages/auth/register" className={styles.link}>Register</Link> */}
           <button onClick={handleLogout} className={styles.logoutButton}>Logout</button>
         </div>
       ) : (
